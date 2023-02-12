@@ -4,6 +4,7 @@ This is an SQL case study that I completed using the MySQL Workbench.
 Required the use of :
 
 CREATE TABLE
+
 INSERT INTO
 SELECT
 FROM
