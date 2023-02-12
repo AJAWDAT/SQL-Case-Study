@@ -1,2 +1,32 @@
 # SQL-Case-Study
-This is an SQL case study that I completed using the MySQL Workbench
+This is an SQL case study that I completed using the MySQL Workbench.
+
+Required the use of :
+
+CREATE TABLE
+INSERT INTO
+SELECT
+FROM
+GROUP BY
+ORDER BY
+WHERE
+JOIN
+LEFT JOIN
+ON
+COUNT()
+DISTINCT
+BETWEEN
+DATE_FORMAT()
+CAST()
+DECIMAL()
+OVER()
+PARTITION BY
+WITH (COMMON TABLE EXPRESSIONS)
+AVG()
+DATEDIFF()
+CASE
+WHEN
+THEN
+ELSE
+END
+
