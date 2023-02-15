@@ -28,7 +28,6 @@ GROUP BY Subscriptions.plan_id, Plans.plan_name
 ;
 
 /* 4. What is the customer count and percentage of customers who have churned rounded to 1 decimal place? */
-/*Used bit.io as compiler from here on as programiz didnt support the cast function*/
 SELECT COUNT(customer_id) AS TotalCustomersChurned, CAST(((SELECT COUNT(DISTINCT customer_id)
 FROM Subscriptions
 WHERE plan_id='4') / (SELECT CAST(COUNT(DISTINCT customer_id) AS DECIMAL(6,2))
